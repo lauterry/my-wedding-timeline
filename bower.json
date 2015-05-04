@@ -1,0 +1,32 @@
+{
+  "name": "vertical-timeline",
+  "version": "0.0.0",
+  "homepage": "https://github.com/lauterry/vertical-timeline",
+  "authors": [
+    "LAU Thierry <thierlau@gmail.com>"
+  ],
+  "keywords": [
+    "vertical",
+    "timeline"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reset-scss": "*",
+    "bourbon": "~4.2.2",
+    "jquery": "~2.1.4",
+    "modernizr": "~2.8.3"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "modernizr.js"
+    }
+  }
+}
