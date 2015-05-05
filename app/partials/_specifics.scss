@@ -1,0 +1,21 @@
+.cd-timeline-img {
+	> [class^="icon-"] {
+		display: block;
+		position: relative;
+		left: 50%;
+		top: 50%;
+		margin-left: -11px;
+		margin-top: -16px;
+		color: white;
+		font-size: 2rem;
+	}
+
+	.icon-home,
+	.icon-camera-retro,
+	.icon-leaf,
+	.icon-galss,
+	.icon-birthday-cake {
+		margin-left: -15px;
+	}
+}
+
