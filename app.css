@@ -40,8 +40,8 @@ table {
 
 @font-face {
   font-family: 'icomoon';
-  src: url('fonts/icomoon.eot?9of6ds');
-  src: url('fonts/icomoon.eot?#iefix9of6ds') format('embedded-opentype'), url('fonts/icomoon.woff?9of6ds') format('woff'), url('fonts/icomoon.ttf?9of6ds') format('truetype'), url('fonts/icomoon.svg?9of6ds#icomoon') format('svg');
+  src: url('fonts/icomoon.eot?-5m0vsw');
+  src: url('fonts/icomoon.eot?#iefix-5m0vsw') format('embedded-opentype'), url('fonts/icomoon.woff?-5m0vsw') format('woff'), url('fonts/icomoon.ttf?-5m0vsw') format('truetype'), url('fonts/icomoon.svg?-5m0vsw#icomoon') format('svg');
   font-weight: normal;
   font-style: normal; }
 
@@ -67,54 +67,70 @@ table {
   content: "\f001"; }
 
 /* line 34, app/partials/_icons.scss */
+.icon-film:before {
+  content: "\f008"; }
+
+/* line 38, app/partials/_icons.scss */
 .icon-home:before {
   content: "\f015"; }
 
-/* line 38, app/partials/_icons.scss */
+/* line 42, app/partials/_icons.scss */
+.icon-clock-o:before {
+  content: "\f017"; }
+
+/* line 46, app/partials/_icons.scss */
+.icon-volume-up:before {
+  content: "\f028"; }
+
+/* line 50, app/partials/_icons.scss */
 .icon-leaf:before {
   content: "\f06c"; }
 
-/* line 42, app/partials/_icons.scss */
+/* line 54, app/partials/_icons.scss */
 .icon-eye:before {
   content: "\f06e"; }
 
-/* line 46, app/partials/_icons.scss */
+/* line 58, app/partials/_icons.scss */
 .icon-camera-retro:before {
   content: "\f083"; }
 
-/* line 50, app/partials/_icons.scss */
+/* line 62, app/partials/_icons.scss */
+.icon-group:before {
+  content: "\f0c0"; }
+
+/* line 66, app/partials/_icons.scss */
 .icon-cut:before {
   content: "\f0c4"; }
 
-/* line 54, app/partials/_icons.scss */
+/* line 70, app/partials/_icons.scss */
 .icon-bell:before {
   content: "\f0f3"; }
 
-/* line 58, app/partials/_icons.scss */
+/* line 74, app/partials/_icons.scss */
 .icon-cutlery:before {
   content: "\f0f5"; }
 
-/* line 62, app/partials/_icons.scss */
+/* line 78, app/partials/_icons.scss */
 .icon-compass:before {
   content: "\f14e"; }
 
-/* line 66, app/partials/_icons.scss */
+/* line 82, app/partials/_icons.scss */
 .icon-female:before {
   content: "\f182"; }
 
-/* line 70, app/partials/_icons.scss */
+/* line 86, app/partials/_icons.scss */
 .icon-male:before {
   content: "\f183"; }
 
-/* line 74, app/partials/_icons.scss */
+/* line 90, app/partials/_icons.scss */
 .icon-pagelines:before {
   content: "\f18c"; }
 
-/* line 78, app/partials/_icons.scss */
+/* line 94, app/partials/_icons.scss */
 .icon-bank:before {
   content: "\f19c"; }
 
-/* line 82, app/partials/_icons.scss */
+/* line 98, app/partials/_icons.scss */
 .icon-birthday-cake:before {
   content: "\f1fd"; }
 
@@ -182,30 +198,35 @@ Main components
 /* line 64, app/partials/_cd-timeline.scss */
 header {
   height: 200px;
-  line-height: 200px;
   text-align: center;
   background: #303e49; }
-  /* line 70, app/partials/_cd-timeline.scss */
+  /* line 69, app/partials/_cd-timeline.scss */
   header h1 {
     color: #ffffff;
-    font-size: 18px;
-    font-size: 1.125rem; }
+    padding-top: 100px; }
+  /* line 74, app/partials/_cd-timeline.scss */
+  header h2 {
+    color: #ffffff;
+    padding-top: 20px; }
+  /* line 79, app/partials/_cd-timeline.scss */
+  header a {
+    display: block;
+    padding-top: 20px; }
   @media only screen and (min-width: 1024px) {
     header {
-      height: 300px;
-      line-height: 300px; }
-      /* line 79, app/partials/_cd-timeline.scss */
+      height: 300px; }
+      /* line 87, app/partials/_cd-timeline.scss */
       header h1 {
         font-size: 24px;
         font-size: 1.5rem; } }
 
-/* line 85, app/partials/_cd-timeline.scss */
+/* line 93, app/partials/_cd-timeline.scss */
 #cd-timeline {
   position: relative;
   padding: 2em 0;
   margin-top: 2em;
   margin-bottom: 2em; }
-  /* line 93, app/partials/_cd-timeline.scss */
+  /* line 101, app/partials/_cd-timeline.scss */
   #cd-timeline::before {
     /* this is the vertical line */
     content: '';
@@ -219,12 +240,12 @@ header {
     #cd-timeline {
       margin-top: 3em;
       margin-bottom: 3em; }
-      /* line 110, app/partials/_cd-timeline.scss */
+      /* line 118, app/partials/_cd-timeline.scss */
       #cd-timeline::before {
         left: 50%;
         margin-left: -2px; } }
 
-/* line 117, app/partials/_cd-timeline.scss */
+/* line 125, app/partials/_cd-timeline.scss */
 .cd-timeline-block {
   position: relative;
   margin: 2em 0; }
@@ -233,23 +254,23 @@ header {
     clear: both;
     content: "";
     display: table; }
-  /* line 122, app/partials/_cd-timeline.scss */
+  /* line 130, app/partials/_cd-timeline.scss */
   .cd-timeline-block:first-child {
     margin-top: 0; }
-  /* line 126, app/partials/_cd-timeline.scss */
+  /* line 134, app/partials/_cd-timeline.scss */
   .cd-timeline-block:last-child {
     margin-bottom: 0; }
   @media only screen and (min-width: 1024px) {
     .cd-timeline-block {
       margin: 4em 0; }
-      /* line 133, app/partials/_cd-timeline.scss */
+      /* line 141, app/partials/_cd-timeline.scss */
       .cd-timeline-block:first-child {
         margin-top: 0; }
-      /* line 137, app/partials/_cd-timeline.scss */
+      /* line 145, app/partials/_cd-timeline.scss */
       .cd-timeline-block:last-child {
         margin-bottom: 0; } }
 
-/* line 143, app/partials/_cd-timeline.scss */
+/* line 151, app/partials/_cd-timeline.scss */
 .cd-timeline-img {
   position: absolute;
   top: 0;
@@ -258,7 +279,7 @@ header {
   height: 40px;
   border-radius: 50%;
   box-shadow: 0 0 0 4px #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05); }
-  /* line 152, app/partials/_cd-timeline.scss */
+  /* line 160, app/partials/_cd-timeline.scss */
   .cd-timeline-img img {
     display: block;
     width: 24px;
@@ -268,16 +289,16 @@ header {
     top: 50%;
     margin-left: -12px;
     margin-top: -12px; }
-  /* line 163, app/partials/_cd-timeline.scss */
+  /* line 171, app/partials/_cd-timeline.scss */
   .cd-timeline-img.green {
     background: #75ce66; }
-  /* line 167, app/partials/_cd-timeline.scss */
+  /* line 175, app/partials/_cd-timeline.scss */
   .cd-timeline-img.red {
     background: #c03b44; }
-  /* line 171, app/partials/_cd-timeline.scss */
+  /* line 179, app/partials/_cd-timeline.scss */
   .cd-timeline-img.yellow {
     background: #f0ca45; }
-  /* line 175, app/partials/_cd-timeline.scss */
+  /* line 183, app/partials/_cd-timeline.scss */
   .cd-timeline-img.orange {
     background: #f09a19; }
   @media only screen and (min-width: 1024px) {
@@ -289,10 +310,10 @@ header {
       /* Force Hardware Acceleration in WebKit */
       -webkit-transform: translateZ(0);
       -webkit-backface-visibility: hidden; }
-      /* line 189, app/partials/_cd-timeline.scss */
+      /* line 197, app/partials/_cd-timeline.scss */
       .cssanimations .cd-timeline-img.is-hidden {
         visibility: hidden; }
-      /* line 193, app/partials/_cd-timeline.scss */
+      /* line 201, app/partials/_cd-timeline.scss */
       .cssanimations .cd-timeline-img.bounce-in {
         visibility: visible;
         -webkit-animation: cd-bounce-1 .6s;
@@ -300,37 +321,37 @@ header {
         animation: cd-bounce-1 .6s; } }
 
 @-webkit-keyframes cd-bounce-1 {
-  /* line 201, app/partials/_cd-timeline.scss */
+  /* line 209, app/partials/_cd-timeline.scss */
   0% {
     opacity: 0;
     -webkit-transform: scale(.5); }
 
-  /* line 206, app/partials/_cd-timeline.scss */
+  /* line 214, app/partials/_cd-timeline.scss */
   60% {
     opacity: 1;
     -webkit-transform: scale(1.2); }
 
-  /* line 211, app/partials/_cd-timeline.scss */
+  /* line 219, app/partials/_cd-timeline.scss */
   100% {
     -webkit-transform: scale(1); } }
 
 @-moz-keyframes cd-bounce-1 {
-  /* line 201, app/partials/_cd-timeline.scss */
+  /* line 209, app/partials/_cd-timeline.scss */
   0% {
     opacity: 0;
     -moz-transform: scale(.5); }
 
-  /* line 206, app/partials/_cd-timeline.scss */
+  /* line 214, app/partials/_cd-timeline.scss */
   60% {
     opacity: 1;
     -moz-transform: scale(1.2); }
 
-  /* line 211, app/partials/_cd-timeline.scss */
+  /* line 219, app/partials/_cd-timeline.scss */
   100% {
     -moz-transform: scale(1); } }
 
 @keyframes cd-bounce-1 {
-  /* line 201, app/partials/_cd-timeline.scss */
+  /* line 209, app/partials/_cd-timeline.scss */
   0% {
     opacity: 0;
     -webkit-transform: scale(.5);
@@ -339,7 +360,7 @@ header {
     -o-transform: scale(.5);
     transform: scale(.5); }
 
-  /* line 206, app/partials/_cd-timeline.scss */
+  /* line 214, app/partials/_cd-timeline.scss */
   60% {
     opacity: 1;
     -webkit-transform: scale(1.2);
@@ -348,7 +369,7 @@ header {
     -o-transform: scale(1.2);
     transform: scale(1.2); }
 
-  /* line 211, app/partials/_cd-timeline.scss */
+  /* line 219, app/partials/_cd-timeline.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -356,7 +377,7 @@ header {
     -o-transform: scale(1);
     transform: scale(1); } }
 
-/* line 216, app/partials/_cd-timeline.scss */
+/* line 224, app/partials/_cd-timeline.scss */
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
@@ -369,36 +390,36 @@ header {
     clear: both;
     content: "";
     display: table; }
-  /* line 225, app/partials/_cd-timeline.scss */
+  /* line 233, app/partials/_cd-timeline.scss */
   .cd-timeline-content h2 {
     color: #303e49; }
-  /* line 229, app/partials/_cd-timeline.scss */
+  /* line 237, app/partials/_cd-timeline.scss */
   .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 13px;
     font-size: 0.8125rem; }
-  /* line 233, app/partials/_cd-timeline.scss */
+  /* line 241, app/partials/_cd-timeline.scss */
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     display: inline-block; }
-  /* line 237, app/partials/_cd-timeline.scss */
+  /* line 245, app/partials/_cd-timeline.scss */
   .cd-timeline-content p {
     margin: 1em 0;
     line-height: 1.6; }
-  /* line 242, app/partials/_cd-timeline.scss */
+  /* line 250, app/partials/_cd-timeline.scss */
   .cd-timeline-content .cd-read-more {
     float: right;
     padding: .8em 1em;
     background: #acb7c0;
     color: #ffffff;
     border-radius: 0.25em; }
-    /* line 249, app/partials/_cd-timeline.scss */
+    /* line 257, app/partials/_cd-timeline.scss */
     .no-touch .cd-timeline-content .cd-read-more:hover {
       background-color: #bac4cb; }
-  /* line 254, app/partials/_cd-timeline.scss */
+  /* line 262, app/partials/_cd-timeline.scss */
   .cd-timeline-content .cd-date {
     float: left;
     padding: .8em 0;
     opacity: .7; }
-  /* line 260, app/partials/_cd-timeline.scss */
+  /* line 268, app/partials/_cd-timeline.scss */
   .cd-timeline-content::before {
     content: '';
     position: absolute;
@@ -409,15 +430,15 @@ header {
     border: 7px solid transparent;
     border-right: 7px solid #ffffff; }
   @media only screen and (min-width: 768px) {
-    /* line 272, app/partials/_cd-timeline.scss */
+    /* line 280, app/partials/_cd-timeline.scss */
     .cd-timeline-content h2 {
       font-size: 20px;
       font-size: 1.25rem; }
-    /* line 276, app/partials/_cd-timeline.scss */
+    /* line 284, app/partials/_cd-timeline.scss */
     .cd-timeline-content p {
       font-size: 16px;
       font-size: 1rem; }
-    /* line 280, app/partials/_cd-timeline.scss */
+    /* line 288, app/partials/_cd-timeline.scss */
     .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
       font-size: 14px;
       font-size: 0.875rem; } }
@@ -426,16 +447,16 @@ header {
       margin-left: 0;
       padding: 1.6em;
       width: 45%; }
-      /* line 290, app/partials/_cd-timeline.scss */
+      /* line 298, app/partials/_cd-timeline.scss */
       .cd-timeline-content::before {
         top: 24px;
         left: 100%;
         border-color: transparent;
         border-left-color: #ffffff; }
-      /* line 297, app/partials/_cd-timeline.scss */
+      /* line 305, app/partials/_cd-timeline.scss */
       .cd-timeline-content .cd-read-more {
         float: left; }
-      /* line 301, app/partials/_cd-timeline.scss */
+      /* line 309, app/partials/_cd-timeline.scss */
       .cd-timeline-content .cd-date {
         position: absolute;
         width: 100%;
@@ -443,28 +464,28 @@ header {
         top: 6px;
         font-size: 16px;
         font-size: 1rem; }
-      /* line 309, app/partials/_cd-timeline.scss */
+      /* line 317, app/partials/_cd-timeline.scss */
       .cd-timeline-block:nth-child(even) .cd-timeline-content {
         float: right; }
-        /* line 312, app/partials/_cd-timeline.scss */
+        /* line 320, app/partials/_cd-timeline.scss */
         .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
           top: 24px;
           left: auto;
           right: 100%;
           border-color: transparent;
           border-right-color: #ffffff; }
-        /* line 320, app/partials/_cd-timeline.scss */
+        /* line 328, app/partials/_cd-timeline.scss */
         .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
           float: right; }
-        /* line 324, app/partials/_cd-timeline.scss */
+        /* line 332, app/partials/_cd-timeline.scss */
         .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
           left: auto;
           right: 122%;
           text-align: right; }
-      /* line 331, app/partials/_cd-timeline.scss */
+      /* line 339, app/partials/_cd-timeline.scss */
       .cssanimations .cd-timeline-content.is-hidden {
         visibility: hidden; }
-      /* line 335, app/partials/_cd-timeline.scss */
+      /* line 343, app/partials/_cd-timeline.scss */
       .cssanimations .cd-timeline-content.bounce-in {
         visibility: visible;
         -webkit-animation: cd-bounce-2 .6s;
@@ -473,44 +494,44 @@ header {
 
 @media only screen and (min-width: 1024px) {
   /* inverse bounce effect on even content blocks */
-  /* line 344, app/partials/_cd-timeline.scss */
+  /* line 352, app/partials/_cd-timeline.scss */
   .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
     -webkit-animation: cd-bounce-2-inverse .6s;
     -moz-animation: cd-bounce-2-inverse .6s;
     animation: cd-bounce-2-inverse .6s; } }
 
 @-webkit-keyframes cd-bounce-2 {
-  /* line 350, app/partials/_cd-timeline.scss */
+  /* line 358, app/partials/_cd-timeline.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-100px); }
 
-  /* line 355, app/partials/_cd-timeline.scss */
+  /* line 363, app/partials/_cd-timeline.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(20px); }
 
-  /* line 360, app/partials/_cd-timeline.scss */
+  /* line 368, app/partials/_cd-timeline.scss */
   100% {
     -webkit-transform: translateX(0); } }
 
 @-moz-keyframes cd-bounce-2 {
-  /* line 350, app/partials/_cd-timeline.scss */
+  /* line 358, app/partials/_cd-timeline.scss */
   0% {
     opacity: 0;
     -moz-transform: translateX(-100px); }
 
-  /* line 355, app/partials/_cd-timeline.scss */
+  /* line 363, app/partials/_cd-timeline.scss */
   60% {
     opacity: 1;
     -moz-transform: translateX(20px); }
 
-  /* line 360, app/partials/_cd-timeline.scss */
+  /* line 368, app/partials/_cd-timeline.scss */
   100% {
     -moz-transform: translateX(0); } }
 
 @keyframes cd-bounce-2 {
-  /* line 350, app/partials/_cd-timeline.scss */
+  /* line 358, app/partials/_cd-timeline.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-100px);
@@ -519,7 +540,7 @@ header {
     -o-transform: translateX(-100px);
     transform: translateX(-100px); }
 
-  /* line 355, app/partials/_cd-timeline.scss */
+  /* line 363, app/partials/_cd-timeline.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(20px);
@@ -528,7 +549,7 @@ header {
     -o-transform: translateX(20px);
     transform: translateX(20px); }
 
-  /* line 360, app/partials/_cd-timeline.scss */
+  /* line 368, app/partials/_cd-timeline.scss */
   100% {
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
@@ -537,37 +558,37 @@ header {
     transform: translateX(0); } }
 
 @-webkit-keyframes cd-bounce-2-inverse {
-  /* line 366, app/partials/_cd-timeline.scss */
+  /* line 374, app/partials/_cd-timeline.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(100px); }
 
-  /* line 371, app/partials/_cd-timeline.scss */
+  /* line 379, app/partials/_cd-timeline.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(-20px); }
 
-  /* line 376, app/partials/_cd-timeline.scss */
+  /* line 384, app/partials/_cd-timeline.scss */
   100% {
     -webkit-transform: translateX(0); } }
 
 @-moz-keyframes cd-bounce-2-inverse {
-  /* line 366, app/partials/_cd-timeline.scss */
+  /* line 374, app/partials/_cd-timeline.scss */
   0% {
     opacity: 0;
     -moz-transform: translateX(100px); }
 
-  /* line 371, app/partials/_cd-timeline.scss */
+  /* line 379, app/partials/_cd-timeline.scss */
   60% {
     opacity: 1;
     -moz-transform: translateX(-20px); }
 
-  /* line 376, app/partials/_cd-timeline.scss */
+  /* line 384, app/partials/_cd-timeline.scss */
   100% {
     -moz-transform: translateX(0); } }
 
 @keyframes cd-bounce-2-inverse {
-  /* line 366, app/partials/_cd-timeline.scss */
+  /* line 374, app/partials/_cd-timeline.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(100px);
@@ -576,7 +597,7 @@ header {
     -o-transform: translateX(100px);
     transform: translateX(100px); }
 
-  /* line 371, app/partials/_cd-timeline.scss */
+  /* line 379, app/partials/_cd-timeline.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(-20px);
@@ -585,7 +606,7 @@ header {
     -o-transform: translateX(-20px);
     transform: translateX(-20px); }
 
-  /* line 376, app/partials/_cd-timeline.scss */
+  /* line 384, app/partials/_cd-timeline.scss */
   100% {
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
@@ -599,18 +620,21 @@ header {
   position: relative;
   left: 50%;
   top: 50%;
-  margin-left: -11px;
+  margin-left: -15px;
   margin-top: -16px;
   color: white;
   font-size: 2rem; }
-/* line 19, app/partials/_specifics.scss */
-.cd-timeline-img .icon-bank, .cd-timeline-img .icon-bell, .cd-timeline-img .icon-camera-retro, .cd-timeline-img .icon-leaf, .cd-timeline-img .icon-glass, .cd-timeline-img .icon-cut, .cd-timeline-img .icon-birthday-cake {
-  margin-left: -15px; }
+/* line 14, app/partials/_specifics.scss */
+.cd-timeline-img .icon-male, .cd-timeline-img .icon-female {
+  margin-left: -11px; }
 
-/* line 25, app/partials/_specifics.scss */
+/* line 20, app/partials/_specifics.scss */
 .cd-timeline-content .cd-date {
   font-size: 1.5rem;
   color: #303e49; }
+/* line 25, app/partials/_specifics.scss */
+.cd-timeline-content .duration {
+  color: #2b7ab8; }
 
 
 /*# sourceMappingURL=app.css.map*/
