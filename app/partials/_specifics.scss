@@ -4,20 +4,15 @@
 		position: relative;
 		left: 50%;
 		top: 50%;
-		margin-left: -11px;
+		margin-left: -15px;
 		margin-top: -16px;
 		color: white;
 		font-size: 2rem;
 	}
 
-	.icon-bank,
-	.icon-bell,
-	.icon-camera-retro,
-	.icon-leaf,
-	.icon-glass,
-	.icon-cut,
-	.icon-birthday-cake {
-		margin-left: -15px;
+	.icon-male,
+	.icon-female {
+		margin-left: -11px;
 	}
 }
 
@@ -26,4 +21,9 @@
 		font-size: 1.5rem;
 		color: $color-1;
 	}
+
+	.duration {
+		color: $color-7;
+	}
 }
+

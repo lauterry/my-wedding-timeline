@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?9of6ds');
-	src:url('fonts/icomoon.eot?#iefix9of6ds') format('embedded-opentype'),
-	url('fonts/icomoon.woff?9of6ds') format('woff'),
-	url('fonts/icomoon.ttf?9of6ds') format('truetype'),
-	url('fonts/icomoon.svg?9of6ds#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?-5m0vsw');
+	src:url('fonts/icomoon.eot?#iefix-5m0vsw') format('embedded-opentype'),
+	url('fonts/icomoon.woff?-5m0vsw') format('woff'),
+	url('fonts/icomoon.ttf?-5m0vsw') format('truetype'),
+	url('fonts/icomoon.svg?-5m0vsw#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -31,8 +31,20 @@
 	content: "\f001";
 }
 
+.icon-film:before {
+	content: "\f008";
+}
+
 .icon-home:before {
 	content: "\f015";
+}
+
+.icon-clock-o:before {
+	content: "\f017";
+}
+
+.icon-volume-up:before {
+	content: "\f028";
 }
 
 .icon-leaf:before {
@@ -45,6 +57,10 @@
 
 .icon-camera-retro:before {
 	content: "\f083";
+}
+
+.icon-group:before {
+	content: "\f0c0";
 }
 
 .icon-cut:before {
@@ -82,3 +98,4 @@
 .icon-birthday-cake:before {
 	content: "\f1fd";
 }
+
