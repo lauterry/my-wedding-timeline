@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?ao7k08');
-	src:url('fonts/icomoon.eot?#iefixao7k08') format('embedded-opentype'),
-	url('fonts/icomoon.woff?ao7k08') format('woff'),
-	url('fonts/icomoon.ttf?ao7k08') format('truetype'),
-	url('fonts/icomoon.svg?ao7k08#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?9of6ds');
+	src:url('fonts/icomoon.eot?#iefix9of6ds') format('embedded-opentype'),
+	url('fonts/icomoon.woff?9of6ds') format('woff'),
+	url('fonts/icomoon.ttf?9of6ds') format('truetype'),
+	url('fonts/icomoon.svg?9of6ds#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -39,8 +39,16 @@
 	content: "\f06c";
 }
 
+.icon-eye:before {
+	content: "\f06e";
+}
+
 .icon-camera-retro:before {
 	content: "\f083";
+}
+
+.icon-cut:before {
+	content: "\f0c4";
 }
 
 .icon-bell:before {
@@ -49,10 +57,6 @@
 
 .icon-cutlery:before {
 	content: "\f0f5";
-}
-
-.icon-question:before {
-	content: "\f128";
 }
 
 .icon-compass:before {
@@ -78,4 +82,3 @@
 .icon-birthday-cake:before {
 	content: "\f1fd";
 }
-

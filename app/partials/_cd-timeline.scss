@@ -160,16 +160,20 @@ header {
 		margin-top: -12px;
 	}
 
-	&.cd-picture {
+	&.green {
 		background: $color-4;
 	}
 
-	&.cd-movie {
+	&.red {
 		background: $color-2;
 	}
 
-	&.cd-location {
+	&.yellow {
 		background: $color-5;
+	}
+
+	&.orange {
+		background: $color-6;
 	}
 
 	@include MQ(L) {
